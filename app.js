@@ -202,7 +202,7 @@ app.controller('VideosController', function ($scope, $http, $log, VideosService)
     $scope.search = function () {
       $http.get('https://www.googleapis.com/youtube/v3/search', {
         params: {
-          key: 'AIzaSyD2K6OooNWMPgEWlkAkgAIRctksFyKk1vY',
+          key: 'AIzaSyDE899G6VLSJvHru8hFd9gJsYzGhiZVyIg',
           type: 'video',
           maxResults: '8',
           part: 'id,snippet',
